@@ -30,7 +30,7 @@ try:
 
     counter = 0
 
-    peoplev = 0
+    people = 0
 
     while(1): 
 
@@ -57,7 +57,7 @@ try:
 
         counter = 0
 
-        peoplev = 0
+        people = 0
 
         people = api.get_variable("5238cec3f91b282c7357a140") 
 
@@ -91,4 +91,4 @@ while(1):
 
         counter = 0
 
-        peoplev = 0
+        people = 0
