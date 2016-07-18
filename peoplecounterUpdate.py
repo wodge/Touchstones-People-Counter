@@ -1,10 +1,10 @@
 from ubidots import ApiClient
 import RPi.GPIO as GPIO
 import timeGPIO.setmode(GPIO.BCM)
-GPIO.setup(7, GPIO.IN)
+GPIO.setup(17, GPIO.IN)
 try:
-api = ApiClient("04856548e100d631985d3e9bd9d112c1846ff8da")
-people = api.get_variable("55b2b19376254219c59334c0")
+api =ApiClient("e62234c8846318b2962b69c29b62a0b7bbd5ed18")
+people = api.get_variable("wY36NjEfLRQ3Y1OlTmGLcm9zHKAVQk")
 except:
 print("Couldn't connect to the API, check your Internet connection")
 counter = 0
