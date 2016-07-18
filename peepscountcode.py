@@ -35,7 +35,7 @@ try:
     while(1): 
 
         presence = GPIO.input(7)
-	peoplecount = 0 
+    peoplecount = 0 
 
     if(presence): 
 
